@@ -1,0 +1,39 @@
+:root{
+    --cyan : #00ffff;
+    --gray : rgb(173,173,170);
+}
+.experience h3 span{
+    color: var(--cyan);
+    font-size:5px ;
+}
+.edu h3 span{
+    color: var(--cyan);
+    font-size: 12px;
+}
+.tabs_details h5, span{
+    color: var(--cyan);
+    text-decoration: none;    
+}
+.tabs_details p, .tabs_details .date{
+    color: var(--gray);
+    font-size: 15px;
+}
+.tabs_details h5,p {
+    color: white;
+}
+h5{
+    color: var(--cyan);
+}
+.experience .nav .nav-link{
+    color: var(--gray) !important;
+    font-size: 14px !important;
+}
+.education .nav .active {
+    background-color: rgb(27, 189, 194, 0.3);
+    color: var(--cyan);
+    border-left: 2px solid var(--cyan);
+    border-radius: 0px;
+}
+.experience .nav .active:hover{
+    background-color: rgb(12, 195, 195, 0.6)
+}
